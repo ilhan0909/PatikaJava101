@@ -14,6 +14,7 @@ public class Main {
         System.out.print("Yolculuk tipini giriniz (1 => Tek Yön , 2 => Gidiş Dönüş ): ");
         bilet = input.nextInt();
 
+        //Herhangi bir veri girişi hatası olduğunda diğer veriler doğru olsa bile çıktı almamak için.
         for(i=1;i<2;i++){
             if (bilet<1 || bilet>2){ System.out.print("Hatalı Yolculuk Tipi Girdiniz!");break;}
             else { bilet=bilet;}
