@@ -19,6 +19,7 @@ public class Main {
             else { bilet=bilet;}
             if (mesafe<=0){System.out.print("Hatalı Mesafe Girdiniz!"); break;}
             else { mesafe=mesafe;}
+
             toplamBrut = mesafe*kmUcret;
 
             if (bilet==2){ toplamNet = toplamBrut*2*0.8;}
