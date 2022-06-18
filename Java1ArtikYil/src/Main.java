@@ -7,6 +7,7 @@ public class Main {
         System.out.print("Yıl Giriniz : ");
         yil = input.nextInt();
 
+        if (yıl>0){
         if( yil%400==0 ){
             System.out.println(yil + " artık yıldır.");
         }
@@ -15,6 +16,10 @@ public class Main {
         }
         else {
             System.out.println(yil + " artık yıl değildir.");
+        }
+        }
+        else {
+            System.out.println("Hatalı giriş yaptınız!");
         }
 
     }
